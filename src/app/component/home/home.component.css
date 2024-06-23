@@ -1,0 +1,71 @@
+/* General layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Toolbar */
+  .toolbar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-buttons button {
+    margin: 0 10px;
+  }
+  
+  /* Main content */
+  main {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  footer h2 {
+    color: #0a4a79;
+  }
+  
+  .partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .partners img {
+    margin: 10px;
+    max-height: 50px;
+  }
+  
+  /* Spacer */
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar1 {
+    background-color: rgb(214, 201, 156);
+  }

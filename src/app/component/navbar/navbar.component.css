@@ -1,0 +1,28 @@
+mat-toolbar {
+    background-color: rgb(241, 188, 13);
+  }
+
+  .toolbar-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .custom-button {
+    background-color: #0a4a79 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+  }
+
+  .custom-button:hover {
+    background-color: #0056b3 !important;
+  }
+
+  .custom-button:active {
+    background-color: #004085 !important;
+  }
+  .div {
+    width: 100%;
+  }

@@ -1,0 +1,31 @@
+<form [formGroup]="form" (submit)="aceptar()">
+    <mat-form-field class="example-full-width">
+        <mat-label>Id</mat-label>
+        <input matInput hidden placeholder="Código" formControlName="id">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Nombre</mat-label>
+        <input matInput required placeholder="Nombre" formControlName="nombre">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Apellido</mat-label>
+        <input matInput required placeholder="Apellido" formControlName="apellido">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input matInput required placeholder="Email" formControlName="email">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+        <mat-label>Telefono</mat-label>
+        <input matInput required placeholder="Telefono" formControlName="telefono">
+    </mat-form-field>
+    <br>
+
+    <button mat-raised-button type="submit" color="primary">Aceptar</button>
+    <button mat-raised-button color="warn" routerLink="/trabajadores">Cancelar</button>
+    <p>{{mensaje}}</p>
+</form>

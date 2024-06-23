@@ -1,0 +1,31 @@
+<link href="navbar.component.css" rel="stylesheet" type="text/css" />
+
+<mat-toolbar>
+  <mat-toolbar-row class="toolbar-row">
+    <button mat-raised-button class="custom-button" [routerLink]="'clientes/listar'">
+      Clientes
+    </button>
+    <button mat-raised-button class="custom-button" [routerLink]="'oficios/listar'">
+      Oficios
+    </button>
+    <button mat-raised-button class="custom-button" [routerLink]="'pagos/listar'">
+      Pagos
+    </button>
+    <button mat-raised-button class="custom-button" [routerLink]="'solicitudes/listar'">
+      Solicitudes
+    </button>
+    <button mat-raised-button class="custom-button" [routerLink]="'trabajadores/listar'">
+      Trabajadores
+    </button>
+
+
+    <span class="example-spacer"></span>
+
+    <mat-form-field>
+      <mat-label>Buscar</mat-label>
+      <input matInput placeholder="Buscar" />
+    </mat-form-field>
+    <button mat-raised-button color="accent">Buscar</button>
+  </mat-toolbar-row>
+
+</mat-toolbar>
